@@ -1,0 +1,734 @@
+@font-face {
+    font-family: "Karla-Medium";
+    src: url(../fonts/Karla-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Karla-Light";
+    src: url(../fonts/Karla-Light.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*Хедeр*/
+
+.container_header{
+    max-width: 60%;
+    margin: 0% auto;
+    height: 80px;
+    background-color: white;
+    padding-top: 25px;
+}
+
+.header_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    padding-left: 80px;
+    display: flex;  
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav li{
+    padding-left: 40px;
+    list-style: none;
+}
+
+.nav-item{
+    color: #1D1F2E;
+    text-decoration: none;
+    font-family: 'Karla-Medium';
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.basket-line{
+    padding-left: 60px;
+    display: flex;
+}
+
+.nav-2 li{
+    padding-left: 10px;
+    list-style: none;
+    padding-right: 10px;
+}
+
+.nav-item-2{
+    color: #1D1F2E;
+    text-decoration: none;
+    font-family: 'Karla-Medium';
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+/*секция 1*/
+
+.section1{
+    max-width: 1380px;
+    margin: 0% auto;
+    height: 530px;
+    background-color: #050827;
+}
+
+.container_main{
+    display: flex;
+    justify-content: center;
+}
+
+.over-image{
+    position: relative;
+}
+
+.text-overlay {
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    padding: 100px;
+    color: #ffffff;
+}
+
+.upper_name{
+    padding-bottom: 2%;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Karla-Light';
+}
+
+.order_name{
+    padding-bottom: 1%;
+    font-size: 47px;
+    line-height: 60px;
+    font-weight: 400;
+    font-family: 'Karla-Light';
+}
+
+.down_name{
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Karla-Light';
+    white-space: nowrap;
+}
+
+.button{
+    color: #1D1F2E;
+    background-color: #ffffff;
+    border: none;
+    width: 31%;
+    height: 32px;
+    margin-top: 5%;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    font-family: 'Karla-Medium';
+    letter-spacing: 2px;
+}
+
+/*секция 3*/
+
+.section3{
+    max-width: 50%;
+    margin: 0% auto;
+    height: 5150px;
+    background-color: white;
+}
+
+.container3{
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.key-text{
+    font-family: 'Karla-Medium';
+    font-size: 28px;
+    line-height: 40px;
+    color: #1D1F2E;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main-text{
+    font-family: 'Karla-Medium';
+    font-size: 16px;
+    line-height: 28px;
+    color: #1D1F2EB2;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 3%;
+    margin-bottom: 3%;
+}
+
+.major-text{
+    margin-top: 25px;
+}
+
+.point-text{
+    font-family: 'Karla-Medium';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #A25F4B;
+    text-align: center;
+    margin-bottom: 100px;
+    white-space: nowrap;
+    position: relative;
+    /* border-bottom: 2px solid #A25F4B33;
+    font-weight: normal;
+    padding-bottom: 4px; */
+}
+
+.point-text:after{
+    width: 135px;
+    height: 2px;
+    background: #A25F4B33;
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -65px;
+    bottom: -7px;
+}
+
+.end-text{
+    text-align: center;
+    font-family: 'Karla-Medium';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #1D1F2E;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+    position: relative;
+
+}
+
+.end-text:before{
+    content: "";
+    border-bottom: 1px solid #ECECED;
+    width: 30px;
+    height: 0.1em;
+    position: absolute;
+    top: calc(0.65em - 1px);
+    margin-left: -50px;
+}
+
+.end-text:after{
+    content: "";
+    border-bottom: 1px solid #ECECED;
+    width: 30px;
+    height: 0.1em;
+    position: absolute;
+    top: calc(0.65em - 1px);
+    margin-left: 10px;
+}
+
+.teamwise{
+    display: flex;
+    justify-content: center;
+}
+
+.num-image-1{
+    margin-right: 30px;
+}
+
+.card-text-1{
+    padding: 40px 0px 0px 120px;
+}
+
+.title-1{
+    font-family: 'Karla-Medium';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #1D1F2E;
+}
+
+.price-1{
+    font-family: 'Karla-Medium';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1D1F2E;
+    padding: 10px 0px 0px 65px;
+    opacity: 70%;
+}
+
+.price-2{
+    font-family: 'Karla-Medium';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #A25F4B;
+    padding: 10px 0px 0px 25px;
+    white-space: nowrap;
+}
+
+.price-02{
+    font-family: 'Karla-Medium';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1D1F2E66;
+    padding: 10px 0px 0px 20px;
+    text-decoration: line-through;
+    opacity: 80%;
+    white-space: nowrap;
+}
+
+.card-text-02{
+    display: flex;
+    align-items: center;
+}
+
+.major-text-2{
+    margin-top: 140px;
+}
+
+.num-image-2{
+    padding-right: 25px;
+}
+
+.card-text-2{
+    padding: 40px 0px 0px 0px;
+}
+
+.price-3{
+    font-family: 'Karla-Medium';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #A25F4B;
+    padding: 10px 0px 0px 0px;
+    white-space: nowrap;
+}
+
+.price-06{
+    font-family: 'Karla-Medium';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1D1F2EB2;
+    padding: 10px 0px 0px 115px;
+    white-space: nowrap;
+}
+
+.price-03{
+    font-family: 'Karla-Medium';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1D1F2EB2;
+    padding: 10px 0px 0px 100px;
+    white-space: nowrap;
+}
+
+.price-07{
+    font-family: 'Karla-Medium';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1D1F2EB2;
+    padding: 10px 0px 0px 100px;
+    white-space: nowrap;
+}
+
+.price-08{
+    font-family: 'Karla-Medium';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1D1F2EB2;
+    padding: 10px 0px 0px 105px;
+    white-space: nowrap;
+}
+
+.price-09{
+    font-family: 'Karla-Medium';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1D1F2EB2;
+    padding: 10px 0px 0px 120px;
+    white-space: nowrap;
+}
+
+.title-2{
+    font-family: 'Karla-Medium';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #1D1F2E;
+    padding-left: 30%;
+}
+
+.title-3{
+    font-family: 'Karla-Medium';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #1D1F2E;
+    padding-left: 20%;
+}
+
+.title-4{
+    font-family: 'Karla-Medium';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #1D1F2E;
+    padding-left: 30%;
+}
+
+.title-5{
+    font-family: 'Karla-Medium';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #1D1F2E;
+    padding-left: 15%;
+}
+
+.card-text-03{
+    display: flex;
+    align-items: center;
+    margin-left: 24%;
+}
+
+.teamwise-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.teamwise-2{
+    display: flex;
+    justify-content: center;
+}
+
+.object{
+    display: flex;
+}
+
+.div-1{
+    padding-left: 20px;
+
+}
+
+.div-2{
+    padding-top: 20px;
+}
+
+.object-text{
+    padding-left: 70px;
+}
+
+.premium{
+    font-family: 'Karla-Medium';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #1D1F2E;
+    padding-top: 5px;
+    letter-spacing: 2px;
+}
+
+.sign{
+    font-family: 'Karla-Medium';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #1D1F2E;
+    padding-top: 20px;
+}
+
+.caption{
+    font-family: 'Karla-Medium';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1D1F2E;
+    padding-top: 20px;
+    opacity: 70%;
+}
+
+.button-2{
+    color: white;
+    background-color: #1D1F2E;
+    border: none;
+    width: 180px;
+    height: 35px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: 'Karla-Light';
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+.active{
+    padding-top: 20px;
+}
+
+.background-coffee{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.title-x{
+    font-family: 'Karla-Medium';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #1D1F2E;
+}
+
+.price-x{
+    font-family: 'Karla-Medium';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1D1F2EB2;
+}
+
+.card-text-end{
+    margin-top: 20px;
+}
+
+.card-text-x{
+    margin-top: 10px;
+}
+
+.data{
+    font-family: 'Karla-Medium';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #1D1F2E;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+/*секция 4*/
+
+.section4{
+    max-width: 1380px;
+    margin: 0% auto;
+    height: 327px;
+    background-color: #1D1F2E;
+}
+
+.container4{
+    justify-content: center;
+    display: flex;
+    padding-top: 80px;
+}
+
+.over-image-2{
+    position: relative;
+    padding-right: 500px;
+}
+
+/* .over-image img {
+    max-width: 100%;
+    height: auto;
+ } */
+
+.text-overlay-2{
+    text-align: center;
+    position: absolute;
+    color: #ffffff; 
+
+}
+
+.upper_name-2{
+    /* padding-bottom: 2%; */
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Karla-Light';
+    white-space: nowrap;
+    position: relative;
+}
+
+.upper_name-2:before{
+    content: "";
+    border-bottom: 1px solid #D2D2D51A;
+    width: 30px;
+    height: 0.1em;
+    position: absolute;
+    top: calc(0.65em - 1px);
+    margin-left: -50px;
+}
+
+.upper_name-2:after{
+    content: "";
+    border-bottom: 1px solid #D2D2D51A;
+    width: 30px;
+    height: 0.1em;
+    position: absolute;
+    top: calc(0.65em - 1px);
+    margin-left: 10px;
+}
+
+.order_name-2{
+    /* padding-bottom: 1%; */
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 400;
+    font-family: 'Karla-Light';
+    white-space: nowrap;
+    padding-top: 15px;
+}
+
+.down_name-2{
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Karla-Light';
+    white-space: nowrap;
+}
+
+.button-3{
+    color: #1D1F2E;
+    background-color: #ffffff;
+    border: none;
+    width: 130px;
+    height: 54px;
+    margin-top: 5%;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    font-family: 'Karla-Light';
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+.text-pole{
+    margin-right: 10px;
+}
+
+.empty{
+    display: flex;
+    align-items: baseline;
+    padding-top: 25px;
+}
+
+.email{
+    border: 1px solid #2F303E;
+    padding: 17px;
+    width: 350px;
+    height: 54px;
+    letter-spacing: 2px;
+    font-family: 'Karla-Light';
+    font-size: 12px;
+    line-height: 18px;
+    padding-right: 130px;
+}
+
+/* подвал */
+
+.underground{
+    max-width: 80%;
+    margin: 0% auto;
+    height: 263px;
+    background-color: white;
+    margin-top: 107px;
+}
+
+.under-all{
+    justify-content: center;
+    display: flex;
+    padding-right: 100px;
+}
+
+.ref-text{
+    text-decoration: none;
+    color: #1D1F2EB2;
+}
+
+.noise{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: 'Karla-Medium';
+    color: #1D1F2EB2;
+    padding-top: 25px;
+}
+
+.inc{
+    padding-top: 70px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: 'Karla-Medium';
+    color: #1D1F2EB2;
+    opacity: 60%;
+}
+
+.menu{
+    padding-bottom: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: 'Karla-Medium';
+    color: #1D1F2E;
+    letter-spacing: 2px;
+}
+
+.block-text{
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'Karla-Medium';
+    color: #1D1F2EB2;
+}
+
+.email-link{
+    padding-top: 20px;
+    font-size: 23px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: 'Karla-Medium';
+    color: #1D1F2E;
+}
+
+.inc-2{
+    padding-top: 50px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: 'Karla-Medium';
+    color: #1D1F2EB2;
+    opacity: 60%;
+}
+
+.unite-1{
+    margin-right: 50px;
+}
+
+.unite-2{
+    margin-right: 100px;
+}
+
+.unite-3{
+    margin-right: 100px;
+}
